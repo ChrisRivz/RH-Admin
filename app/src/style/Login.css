@@ -1,0 +1,78 @@
+.flex-left, .flex-left .container .card{
+
+    background-color:  #243e69 !important;
+
+}
+
+.flex-left .container .card {
+
+    border: unset;
+    margin: 5rem;
+
+
+}
+.flex-left img{
+
+    width: 100%;
+}
+
+.flex-right .container .card{
+
+    border: unset;
+    margin: 5rem;
+
+}
+
+.flex-right .container .card h2{
+    font-weight: 500;
+    color: #243e69;
+    letter-spacing: -1px;
+}
+
+.flex-right .container .card h5{
+    
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.flex-right .d-flex img{
+
+    width: 15rem;
+}
+.form-login .form-group {
+
+    margin-bottom: 10px;
+
+}
+.form-login .form-group label {
+
+    color: #a5a0b1;
+    margin-bottom: 10px;
+
+}
+
+.form-login button{
+
+    width: 100%;
+    background-color: #243e69 !important;
+    border-color: #243e69;
+}
+
+.form-login .form-footer{
+
+    margin: 10px;
+}
+
+.form-footer label{
+
+    color: #14112d;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-footer label:hover{
+
+    color: #243e69;
+    font-weight: 700;
+    cursor: pointer;
+}
