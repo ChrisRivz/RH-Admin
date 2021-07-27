@@ -1,0 +1,30 @@
+{
+  "name": "RH-Admin",
+  "version": "1.0.0",
+  "description": "This project is with React js, node js and mongo db",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Crud-Nodejs-mongoDB/src/app.js",
+    "dev": "nodemon Crud-Nodejs-mongoDB/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisRivz/RH-Admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisRivz/RH-Admin/issues"
+  },
+  "homepage": "https://github.com/ChrisRivz/RH-Admin#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
