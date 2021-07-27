@@ -6,8 +6,6 @@ import Leftimage from '../image/LeftLogo.png'
 import Logo from '../image/R&R-Logo.png'
 
 
-
-
 class Login extends React.Component {
 
 
@@ -29,6 +27,7 @@ class Login extends React.Component {
     handleSubmit = e =>{
 
         console.log(this.state)
+        window.location('/Index')
 
     }
     //Define el elemento que se vera en pantalla
