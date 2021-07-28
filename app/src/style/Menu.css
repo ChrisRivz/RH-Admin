@@ -1,0 +1,89 @@
+.nav-menu{
+
+    border-right: 2px solid whitesmoke;
+    height: 100vh;
+    background-color: #10182a;
+    box-shadow: 0 6px 0 0 rgb(0 0 0 / 1%), 0 15px 32px 0 rgb(0 0 0 / 6%);
+}
+
+.Header-menu{
+
+    padding: 10px;
+}
+
+.Logo-Menu{
+
+    width: 4rem;;
+}
+
+.icon-bell,.icon-user{
+
+    color: #FFF;
+    font-size: 1.5rem;
+
+}
+.Section-profile{
+
+    margin-top: 2rem !important;
+    text-align: center;
+}
+
+.Section-profile h6{
+
+    padding-top: 1rem;
+    color: #FFF;
+}
+.Section-profile label{
+    
+    font-size: 10px;
+    color: #94A4B8;
+}
+.Avatar-profile{
+
+    width: 7rem;
+}
+
+.Avatar-profile-2{
+
+    width: 5rem;
+}
+
+.list-group-item{
+
+    margin-top: 1rem;
+    background-color: #10182a !important;
+    color: #fff  !important;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.list-group-item:hover{
+
+    background-color: #2D3444 !important;
+}
+
+.icon-user-list, .icon-receipt{
+
+    color: #fff;
+    margin-right: 10px;
+}
+
+.icon-menu{
+
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Navbar-content{
+
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #1E2A3B;
+    padding: 4rem;
+}
+
+.Navbar-content h3{
+
+    color: #fff;
+}
