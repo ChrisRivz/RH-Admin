@@ -8,17 +8,6 @@ mongoose.connect('mongodb+srv://meeseek:Admin123@rr-rh-admin.jsmbk.mongodb.net/T
 .then(db => console.log("DB connected"))
 .catch(err => console.log(err));
 
-const Schema = mongoose.Schema;
-
-const TaskSchema = new Schema({
-    title: String,
-    description: String,
-    status: {
-        type: Boolean,
-        default: false
-    }
-});
-
 app.use(express.static(__dirname + '/public/'));
 
 app.listen('3000', function(){
@@ -27,7 +16,7 @@ app.listen('3000', function(){
 
 app.get('/', function(req, res) {  
 
-    const task = mongoose.model('task',TaskSchema).find();
-    res.send(task);
+    
+    res.send("Hello world");
 
 });
